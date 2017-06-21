@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Beautiful Places</title>
+    <link href="dist/spectre.css" type="text/css" rel="stylesheet">
+    <link href="style/custom.css" type="text/css" rel="stylesheet"/>
+    <script src="scripts/our-places.js" type="text/javascript"></script>
+  </head>
+  <body>
+    
+    <!--
+    header title
+    -->
+    <div class="centered text-center mt-10">
+      <section>
+        <h1>Beautiful Places</h1>
+      </section>
+    </div>
+    
+    <!--
+    header menu
+    -->
+    <header class="navbar">
+      <section class="navbar-section">
+        
+      </section>
+      <section class="navbar-center">
+        <a href="index.html" class="btn mt-10">Home</a>
+        <a href="our-places.html" class="btn mt-10">Our Places</a>
+        <a href="contact.html" class="btn mt-10">Contact</a>
+      </section>
+      <section class="navbar-section">
+        
+      </section>
+    </header>
+    
+    <!--
+    content
+    -->
+    <div class="container">
+      <div class="columns">
+        <div class="column col-12">
+          <div class="panel bg-white shadow-1 mt-10">
+            <div class="panel-header centered">
+              <div class="panel-title">
+                <h4 class="text-center">Information and Rental Request</h4>
+              </div>
+            </div>
+            <div class="panel-body centered">
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label class="form-label col-3" for="name-label">Name</label>
+                  <input class="form-input col-9" type="text" id="name-label" placeholder="Name"/>
+                </div>
+                <div class="form-group">
+                  <label class="form-label col-3" for="email-label">Email</label>
+                  <input class="form-input col-9" type="text" id="email-label" placeholder="Email"/>
+                </div>
+                <div class="form-group">
+                  <label class="form-label col-3" for="property-select">Property</label>
+                  <select class="form-select col-9" id="property-select">
+                    <option>Select a Property</option>
+                    <option>All Properties</option>
+                    <option>509 Summerset Way</option>
+                    <option>704 Coast Hills Avenue</option>
+                    <option>302 Dune Beach Road</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label col-3" for="additional-textarea">Additional Information</label>
+                  <textarea class="form-input col-9" id="additional-textarea" placeholder="Add any additional information here." rows="5"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="panel-footer centered">
+              <button class="btn btn-primary" onclick="">Send Request</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="bg-gray">
+      <section class="container grid-footer grid-960">
+        <br>
+        <div class="container">
+          <div class="columns">
+            <div class="column col-6">
+              <h6>Beautiful Places Ltd</h6>
+              <p>
+              <a href="index.html">Home</a>
+              |
+              <a href="our-places.html">Our Places</a>
+              |
+              <a href="contact.html">Contact</a>
+              </p>
+            </div>
+            <div class="column col-6">
+              <h6>404 Naughtfund Ave</h6>
+              <h6>Beach City, USA</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    
+  </body>
+</html>
